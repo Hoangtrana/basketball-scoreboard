@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball-scoreboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="images/basketball.png" alt="a shiny basketball">
+    <p id="time">Time:</p>
+    <div class="banner-time">
+        <h3 id="timer"></h3>
+      
+        <button class="btn-newgame" onclick="newgame()">New Game</button>
+    </div>
+  
+
+    <div class="container">
+        
+      <div class="home">
+        <h1>HOME</h1>
+        <h2 class="score" id="scoreEl-home">
+            0
+        </h2>
+        <div class="add--score">
+          <span onclick="addOneHome()">+1</span>
+          <span onclick="addTwoHome()">+2</span>
+          <span onclick="addThreeHome()">+3</span>
+        </div>
+      </div>
+      <div class="guest" >
+        <h1>GUEST</h1>
+        <h2 class="score" id="scoreEl-guest">
+           0
+        </h2>
+        <div class="add--score">
+            <span onclick="addOneGuest()">+1</span>
+          <span onclick="addTwoGuest()">+2</span>
+          <span onclick="addThreeGuest()">+3</span>
+        </div>
+      </div>
+       
+      </div>
+      
+      
+    </div>
+    <script src="index.js"></script>
+
+  </body>
+</html>

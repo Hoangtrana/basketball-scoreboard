@@ -1,0 +1,87 @@
+@font-face {
+  font-family: cursedTimer;
+  src: url(CursedTimerULiL.ttf);
+}
+body {
+  margin: 20px;
+  background-color: #03045e;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-time {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-newgame {
+  padding: 5px 20px;
+  height: 60px;
+  font-weight: bold;
+  color: black;
+  background: #9aabd8;
+  cursor: pointer;
+}
+.btn-newgame:hover {
+  background: #6c6ff0;
+}
+#timer {
+  background: #080001;
+  padding: 5px 20px;
+  font-size: 40px;
+}
+
+img {
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 120px;
+}
+.score {
+  background: #080001;
+  padding: 20px 40px;
+  margin: 0px 0px 5px 0px;
+  color: white;
+  font-weight: 400;
+  font-size: 140px;
+  color: #f94f6d;
+  font-family: cursedTimer;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.add--score {
+  display: flex;
+  column-gap: 26px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+span {
+  border: 1px solid #9aabd8;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+span:hover {
+  background: #a784db;
+}
+.home,
+.guest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
